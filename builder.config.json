@@ -1,7 +1,7 @@
 {
-    "command": "cd frontend && yarn dev",
-    "serverUrl": "http://localhost:5173",
-    "commitMode": "draft-prs",
-    "allowedCommands": ["yarn *", "npm *", "git *", "echo *", "cd *", "ls *"],
-    "workspace": "./workspace.json"
-  }
+  "command": "yarn start",
+  "serverUrl": "http://localhost:5173",
+  "commitMode": "draft-prs",
+  "allowedCommands": ["yarn *", "npm *", "git *", "echo *", "cd *", "ls *"],
+  "workspace": "./workspace.json"
+}
